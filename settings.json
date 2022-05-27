@@ -1,0 +1,46 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Dracula Soft",
+    "workbench.editor.enablePreview": true,
+    "window.zoomLevel": 0.55,
+    "security.workspace.trust.untrustedFiles": "open",
+    "zenMode.hideLineNumbers": false,
+
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.renderWhitespace": "all",
+    "editor.renderFinalNewline": true,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+
+    "emmet.includeLanguages": {
+        "php": "html",
+        "blade": "html",
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    },
+
+    "[html]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 4
+    },
+    "[php]": {
+        "editor.tabSize": 4
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2
+    },
+
+    "[prisma]": {
+        "editor.formatOnSave": true
+    },
+
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always"
+}
