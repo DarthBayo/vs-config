@@ -11,13 +11,37 @@
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "editor.codeActionsOnSave": {
-        "source.fixAll": true
+        "source.fixAll": true,
+        "source.fixAll.eslint": true
     },
     "editor.renderWhitespace": "all",
     "editor.renderFinalNewline": true,
     "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.autoIndent": "full",
+    "editor.insertSpaces": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": false,
+    "editor.wordWrapColumn": 80,
+    "editor.wordWrap": "off",
+    "editor.detectIndentation": true,
+    "editor.rulers": [
+        80
+    ],
     "files.eol": "\n",
     "files.insertFinalNewline": true,
+    "files.associations": {
+        "*.inc": "php",
+        "*.module": "php",
+        "*.install": "php",
+        "*.theme": "php",
+        "*.profile": "php",
+        "*.tpl.php": "php",
+        "*.test": "php",
+        "*.php": "php",
+        "*.info": "ini"
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.restoreUndoStack": false,
 
     "terminal.integrated.defaultProfile.linux": "zsh",
 
@@ -28,24 +52,37 @@
         "typescript": "typescriptreact"
     },
 
+    "eslint.validate": [
+        "javascript",
+        "typescript"
+    ],
+
     "[html]": {
         "editor.suggest.insertMode": "replace",
         "editor.tabSize": 4
     },
     "[php]": {
-        "editor.tabSize": 4
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
     },
     "[javascriptreact]": {
+        "editor.tabSize": 4
+    },
+    "[typescript]": {
         "editor.tabSize": 2
     },
     "[typescriptreact]": {
+        "editor.tabSize": 4
+    },
+    "[json]": {
+        "editor.tabSize": 4
+    },
+    "[yaml]": {
         "editor.tabSize": 2
     },
 
-    "[prisma]": {
-        "editor.formatOnSave": true
-    },
-
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "javascript.updateImportsOnFileMove.enabled": "always"
+    "javascript.updateImportsOnFileMove.enabled": "always",
 }
