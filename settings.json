@@ -3,11 +3,11 @@
     "workbench.colorTheme": "Dracula Soft",
     "workbench.editor.enablePreview": true,
     "workbench.sideBar.location": "right",
-    "window.zoomLevel": 0.55,
+    "window.zoomLevel": 0.3,
     "security.workspace.trust.untrustedFiles": "open",
     "zenMode.hideLineNumbers": false,
 
-    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "'Fira Code'",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "editor.codeActionsOnSave": {
@@ -15,7 +15,7 @@
         "source.fixAll.eslint": true
     },
     "editor.renderWhitespace": "all",
-    "editor.renderFinalNewline": true,
+    "editor.renderFinalNewline": "on",
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.autoIndent": "full",
     "editor.insertSpaces": true,
@@ -27,6 +27,7 @@
     "editor.rulers": [
         80
     ],
+
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.associations": {
@@ -51,12 +52,6 @@
         "javascript": "javascriptreact",
         "typescript": "typescriptreact"
     },
-
-    "eslint.validate": [
-        "javascript",
-        "typescript"
-    ],
-
     "[html]": {
         "editor.suggest.insertMode": "replace",
         "editor.tabSize": 4
@@ -82,7 +77,4 @@
     "[yaml]": {
         "editor.tabSize": 2
     },
-
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "javascript.updateImportsOnFileMove.enabled": "always",
 }
