@@ -1,3 +1,1 @@
-## VSCode-Settings
-
-My default settings.
+## Some basic settings
