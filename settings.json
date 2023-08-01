@@ -1,6 +1,6 @@
 {
     "workbench.colorTheme": "Dracula Soft",
-    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreview": false,
     "workbench.sideBar.location": "right",
     "workbench.iconTheme": "vscode-icons",
     "window.zoomLevel": 0.3,
