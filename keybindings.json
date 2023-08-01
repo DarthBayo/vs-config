@@ -11,6 +11,14 @@
         "when": "terminal.active"
     },
     {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
+    {
         "key": "ctrl+alt+e",
         "command": "editor.action.referenceSearch.trigger"
     },
