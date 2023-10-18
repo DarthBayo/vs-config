@@ -3,7 +3,7 @@
     "workbench.editor.enablePreview": false,
     "workbench.sideBar.location": "right",
     "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": 0.3,
+    // "window.zoomLevel": 0.3,
     "security.workspace.trust.untrustedFiles": "open",
     "zenMode.hideLineNumbers": false,
 
@@ -35,7 +35,26 @@
 
     "terminal.integrated.defaultProfile.linux": "zsh",
 
+    "emmet.includeLanguages": {
+        "php": "html",
+    },
+
     "[html]": {
         "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 4
     },
+    "[php]": {
+        "editor.tabSize": 4
+    },
+    "[yaml]": {
+        "editor.tabSize": 2
+    },
+    "[yml]": {
+        "editor.tabSize": 2
+    },
+
+    "gitblame.inlineMessageEnabled": true,
+    "gitblame.inlineMessageFormat": "${author.name}, ${time.ago} - (${commit.hash_short}) ${commit.summary}",
+    "editor.inlineSuggest.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
 }
