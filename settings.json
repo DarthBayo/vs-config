@@ -3,7 +3,8 @@
     "workbench.editor.enablePreview": false,
     "workbench.sideBar.location": "right",
     "workbench.iconTheme": "vscode-icons",
-    // "window.zoomLevel": 0.3,
+    "window.zoomLevel": 0.3,
+
     "security.workspace.trust.untrustedFiles": "open",
     "zenMode.hideLineNumbers": false,
 
@@ -11,8 +12,8 @@
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "editor.codeActionsOnSave": {
-        "source.fixAll": true,
-        "source.organizeImports": true
+        "source.fixAll": "always",
+        "source.organizeImports": "always"
     },
     "editor.renderWhitespace": "all",
     "editor.renderFinalNewline": "on",
@@ -24,19 +25,23 @@
     "editor.wordWrapColumn": 80,
     "editor.wordWrap": "off",
     "editor.detectIndentation": true,
+    "editor.inlineSuggest.enabled": true,
     "editor.rulers": [
         80
     ],
+
+    "diffEditor.ignoreTrimWhitespace": false,
 
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "files.restoreUndoStack": false,
-
     "terminal.integrated.defaultProfile.linux": "zsh",
 
     "emmet.includeLanguages": {
         "php": "html",
+        "javascriptreact": "html",
+        "Javascript": "html"
     },
 
     "[html]": {
@@ -44,7 +49,7 @@
         "editor.tabSize": 4
     },
     "[php]": {
-        "editor.tabSize": 4
+        "editor.tabSize": 4,
     },
     "[yaml]": {
         "editor.tabSize": 2
@@ -52,9 +57,13 @@
     "[yml]": {
         "editor.tabSize": 2
     },
-
-    "gitblame.inlineMessageEnabled": true,
-    "gitblame.inlineMessageFormat": "${author.name}, ${time.ago} - (${commit.hash_short}) ${commit.summary}",
-    "editor.inlineSuggest.enabled": true,
-    "diffEditor.ignoreTrimWhitespace": false,
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "[scss]": {
+        "editor.tabSize": 2
+    },
+    "[sass]": {
+        "editor.tabSize": 2
+    },
 }
