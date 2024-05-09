@@ -1,15 +1,38 @@
 // Place your key bindings in this file to override the defaults
 [
+    // Code Navigation
+    {
+        "key": "alt+left",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+alt+pagedown",
+        "command": "workbench.action.jumToBracket",
+        "when": "editorTextFocus"
+    },
+
+    // Jump to explorer
     {
         "key": "ctrl+shift+e",
         "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
         "when": "inFilesPicker && inQuickOpen"
     },
+
+    // Move editors position
     {
-        "key": "ctrl+shift+'",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
+        "key": "ctrl+shift+pagedown",
+        "command": "workbench.action.moveEditorRightInGroup"
     },
+    {
+        "key": "ctrl+shift+pageup",
+        "command": "workbench.action.moveEditorLeftInGroup"
+    },
+
+    // Move between editor
     {
         "key": "ctrl+tab",
         "command": "workbench.action.nextEditor"
@@ -19,8 +42,27 @@
         "command": "workbench.action.previousEditor"
     },
     {
+        "key": "ctrl+shift+'",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "workbench.action.previousEditor"
+    },
+
+    // Show/Jump to declaration N definition N references
+    {
         "key": "shift+alt+e",
         "command": "editor.action.referenceSearch.trigger"
+    },
+    {
+        "key": "alt+ctrl+d",
+        "command": "editor.action.revealDefinition"
     },
     {
         "key": "shift+alt+d",
@@ -32,20 +74,4 @@
         "command": "editor.action.showHover",
         "when": "editorTextFocus"
     },
-    {
-        "key": "ctrl+shift+pagedown",
-        "command": "workbench.action.moveEditorRightInGroup"
-    },
-    {
-        "key": "ctrl+shift+pageup",
-        "command": "workbench.action.moveEditorLeftInGroup"
-    },
-    {
-        "key": "ctrl+pagedown",
-        "command": "workbench.action.nextEditor"
-    },
-    {
-        "key": "ctrl+pageup",
-        "command": "workbench.action.previousEditor"
-    }
 ]
