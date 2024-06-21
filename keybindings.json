@@ -14,6 +14,10 @@
         "command": "workbench.action.jumToBracket",
         "when": "editorTextFocus"
     },
+    {
+        "key": "%",
+        "command": "editor.action.jumpToBracket"
+    },
 
     // Jump to explorer
     {
